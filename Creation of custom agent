@@ -1,0 +1,6 @@
+from src.agents import BaseAgent
+
+class YourAgent(BaseAgent):
+    async def process(self, input_text, context=None):
+        response = await self.llm.ainvoke(input_text)
+        return response.content
