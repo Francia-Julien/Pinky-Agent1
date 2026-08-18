@@ -1,4 +1,19 @@
-cd /workspaces/Pinky-Agent1
-pip install -r requirements.txt
-cp .env.example .env
-# Add your ANTHROPIC_API_KEY to .env
+# Pinky Agent - Multi-Agent System Coordinator
+
+A production-ready multi-agent AI system built with LangChain and Claude.
+
+
+
+## Features
+
+✨ **Multi-Agent Coordination** - Orchestrate multiple specialized agents
+💾 **Persistent Memory** - Agents remember and learn from experiences
+🧠 **Reasoning Engine** - Chain-of-thought reasoning built-in
+🛠️ **Tool Integration** - Easy to add tools and capabilities
+📊 **Learning** - Agents improve from successful executions
+🔄 **Async** - Full asynchronous support
+✅ **Production Ready** - Comprehensive error handling and logging
+
+
+**Built with ❤️ using LangChain & Anthropic Claude**
+
